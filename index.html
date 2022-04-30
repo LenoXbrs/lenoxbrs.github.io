@@ -11,20 +11,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Press+Start+2P&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/components/logo.css">
-    <link rel="stylesheet" href="css/components/title.css">
     <link rel="stylesheet" href="css/components/subtitle.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/box.css">
     <link rel="stylesheet" href="css/components/button.css">
-</head>
+    <link rel="stylesheet" href="css/components/main-banner.css">
+    <link rel="stylesheet" href="css/components/icon.css">
+    <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/skill-tec.css">
+    <link rel="stylesheet" href="css/components/progress-bar.css">
+    <link rel="stylesheet" href="css/components/wrapper-skill.css">
+</head>    
 <body>
       <header>
-           <h1 class="logo">LDrumond</h1>
+           <h1 id="logo">LDrumond</h1>
             <nav class="navega">
             
                      <a href="" lang="en">Skills</a> 
@@ -32,20 +38,88 @@
                      <a href="">Sobre</a>
                      <a href="">Contatos</a>
               
-                <a class="button" href="" lang="en">Download Aq</a>
+                    <a class="button" href="" lang="en">Download Aq</a>
             </nav>
-        
 
     </header> 
     
-   
-        <div id="box">
-            <h1>Luis Eduardo Drumond</h1>
-            <h2>Estudante de Computação</h2>
-        </div>
-        <a class="button" href="" lang="en">Download Aq</a>
+    <section class="main-banner">
+        <div class="wrapper">
+            <div class="box"> 
+                <h1 class="main-title">Luis  Drumond</h1>
+                <h2 class="subtitle">Estudante Computação</h2> 
+                
+            </div>
+            
+            <div class="navigation">
+                <a class="button" href="" >Contatos</a>
+                <a class="button" href="" lang="en">Download</a>
+            </div>
+                
+            </div>
+    </section>
+
+    <section class="section">
+        <h2 class="main-title -second">Skills</h2>
+
+    <div class="wrapper-skill"> 
+        <article class="skill-tec" >  
+            
+            
+            <img class="icon" src="pictures/ico_html5.png" alt="logo html">
+            <div class="right">
+            <h3 class="title">HTML</h3>
+            <progress  class="progress-bar -html" max="100" value="40">
+                40%
+            </progress>
+            </div>   
+        </article> 
+
+        <article class="skill-tec" >  
+            <img class="icon" src="pictures/ico_css3.png" alt="logo do css">
+            <div class="right">
+            <h3 class="title">CSS</h3>
+            <progress  class="progress-bar -css" max="100" value="40">
+                40%
+            </progress>
+            </div>   
+        </article> 
+
+        <article class="skill-tec" >  
+            <img class="icon" src="pictures/ico_js.png" alt="logo Javascript">
+            <div class="right">
+            <h3  class="title">Javascript</h3>
+            <progress  class="progress-bar -js" max="100" value="30">
+                30%
+            </progress>
+            </div>   
+        </article> 
+
+        <article class="skill-tec" >  
+            <img class="icon" src="pictures/java.png" alt="logo java" height="90">
+            <div class="right">
+            <h3 class="title">Java</h3>
+            <progress  class="progress-bar -java" max="100" value="45">
+                45%
+            </progress>
+            </div>   
+        </article> 
+
+        <article class="skill-tec" >  
+            <img class="icon" src="pictures/mysql.png" alt="logo MySQL" height="90">
+            <div class="right">
+            <h3 class="title">MySQL</h3>
+            <progress  class="progress-bar -mysql" max="100" value="30">
+                30%
+            </progress>
+            </div>   
+        </article> 
+    </div>
+    
+       
+    </section>
         
-        <a class="button" href="" >Contatos</a>
-        <button class="button">Coiso</button>
+    
+    
 </body>
 </html>
