@@ -11,6 +11,8 @@ input[type=text]{
     border: 5px solid black;
     outline: 0;
     border-radius: 10px;
+    padding: 3px;
+    font-size: 20px;
 }
 
 input[type=email], textarea{
@@ -20,6 +22,12 @@ input[type=email], textarea{
     width: 99%;
     outline: 0;
     border-radius: 10px;
+    font-size: 20px;
+}
+
+input[type=email]{
+    padding: 3px;
+   
 }
 
 textarea{
