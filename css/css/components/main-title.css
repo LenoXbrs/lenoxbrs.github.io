@@ -1,0 +1,39 @@
+.main-title{
+    
+    font-family: "Press Start 2P";
+    color: #fa2746;
+    text-shadow: 4px 4px 0px black;
+    
+    
+}
+
+
+
+.wrapper-skill .title{
+    font-size: 25px;
+
+}
+
+.main-title.-second{
+    color: white;
+    text-shadow: none;
+    line-height: 70px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-title.-third{
+    color: white;
+    text-shadow: none;
+    line-height: 70px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.main-title.-fourth{
+    color: white;
+    text-shadow: none;
+    line-height: 70px;
+    font-size: 30px;
+    text-align: center;
+}

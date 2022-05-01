@@ -1,0 +1,23 @@
+.main-button{
+
+    display: inline-block;
+    background-color: #62C370;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 60px;
+    box-shadow: 5px 5px 0px black;
+    margin-right: 0;
+    transition: all 0.3s linear;
+    color: white;
+    font-size: 20px;
+   
+  
+}
+
+.main-button:hover{
+    background-color: #fa2746;
+   cursor: pointer;
+    box-shadow: 8px 8px 0px black;
+    
+}

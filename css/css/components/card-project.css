@@ -1,0 +1,24 @@
+.card-project{
+    display: flex;
+    background-color: blueviolet;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 0px white;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s linear;
+    
+    
+
+   
+}
+.card-project img{
+   height: 70%;
+    width: 70%;
+}
+
+.card-project:hover{
+    
+    box-shadow: 15px 15px 0px white;
+    background-color: rgb(127, 6, 253);
+}
