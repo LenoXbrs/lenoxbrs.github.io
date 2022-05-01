@@ -13,6 +13,7 @@ input[type=text]{
     border-radius: 10px;
     padding: 3px;
     font-size: 20px;
+     font-family: 'Fira code';
 }
 
 input[type=email], textarea{
@@ -23,6 +24,7 @@ input[type=email], textarea{
     outline: 0;
     border-radius: 10px;
     font-size: 20px;
+     font-family: 'Fira code';
 }
 
 input[type=email]{
